@@ -1,0 +1,25 @@
+# These files are text and should be normalized (convert crlf => lf)
+*   
+*.cs      text diff=csharp
+*.csproj    text
+*.sln       text
+*.cmd       text
+*.msbuild   text
+*.json       text
+
+*.unity      eol=lf
+*.meta       eol=lf
+*.mat        eol=lf
+*.prefab     eol=lf
+*.asset      eol=lf
+*.controller eol=lf
+unity/Assets/PS4/changeinfo.xml eol=lf
+
+# Images should be treated as binary
+# (binary is a macro for -text -diff)
+*.png     binary
+*.jpeg    binary
+*.jpg     binary
+*.tiff    binary
+*.fbx     binary
+*.sdf     binary
